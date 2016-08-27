@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F3D04831D71513800DF7FD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3D04821D71513800DF7FD4 /* AppDelegate.swift */; };
+		7F3D04851D71513800DF7FD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3D04841D71513800DF7FD4 /* ViewController.swift */; };
+		7F3D04881D71513800DF7FD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F3D04861D71513800DF7FD4 /* Main.storyboard */; };
+		7F3D048A1D71513800DF7FD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F3D04891D71513800DF7FD4 /* Assets.xcassets */; };
+		7F3D048D1D71513800DF7FD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F3D048B1D71513800DF7FD4 /* LaunchScreen.storyboard */; };
+		7F3D04981D71513800DF7FD4 /* PDFCreatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3D04971D71513800DF7FD4 /* PDFCreatorTests.swift */; };
+		7F3D04A31D71513800DF7FD4 /* PDFCreatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3D04A21D71513800DF7FD4 /* PDFCreatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F3D04941D71513800DF7FD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F3D04771D71513800DF7FD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F3D047E1D71513800DF7FD4;
+			remoteInfo = PDFCreator;
+		};
+		7F3D049F1D71513800DF7FD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F3D04771D71513800DF7FD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F3D047E1D71513800DF7FD4;
+			remoteInfo = PDFCreator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F3D047F1D71513800DF7FD4 /* PDFCreator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFCreator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3D04821D71513800DF7FD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F3D04841D71513800DF7FD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7F3D04871D71513800DF7FD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F3D04891D71513800DF7FD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F3D048C1D71513800DF7FD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F3D048E1D71513800DF7FD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F3D04931D71513800DF7FD4 /* PDFCreatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFCreatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3D04971D71513800DF7FD4 /* PDFCreatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFCreatorTests.swift; sourceTree = "<group>"; };
+		7F3D04991D71513800DF7FD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F3D049E1D71513800DF7FD4 /* PDFCreatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFCreatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3D04A21D71513800DF7FD4 /* PDFCreatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFCreatorUITests.swift; sourceTree = "<group>"; };
+		7F3D04A41D71513800DF7FD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F3D047C1D71513800DF7FD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3D04901D71513800DF7FD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3D049B1D71513800DF7FD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F3D04761D71513800DF7FD4 = {
+			isa = PBXGroup;
+			children = (
+				7F3D04811D71513800DF7FD4 /* PDFCreator */,
+				7F3D04961D71513800DF7FD4 /* PDFCreatorTests */,
+				7F3D04A11D71513800DF7FD4 /* PDFCreatorUITests */,
+				7F3D04801D71513800DF7FD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F3D04801D71513800DF7FD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F3D047F1D71513800DF7FD4 /* PDFCreator.app */,
+				7F3D04931D71513800DF7FD4 /* PDFCreatorTests.xctest */,
+				7F3D049E1D71513800DF7FD4 /* PDFCreatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F3D04811D71513800DF7FD4 /* PDFCreator */ = {
+			isa = PBXGroup;
+			children = (
+				7F3D04821D71513800DF7FD4 /* AppDelegate.swift */,
+				7F3D04841D71513800DF7FD4 /* ViewController.swift */,
+				7F3D04861D71513800DF7FD4 /* Main.storyboard */,
+				7F3D04891D71513800DF7FD4 /* Assets.xcassets */,
+				7F3D048B1D71513800DF7FD4 /* LaunchScreen.storyboard */,
+				7F3D048E1D71513800DF7FD4 /* Info.plist */,
+			);
+			path = PDFCreator;
+			sourceTree = "<group>";
+		};
+		7F3D04961D71513800DF7FD4 /* PDFCreatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F3D04971D71513800DF7FD4 /* PDFCreatorTests.swift */,
+				7F3D04991D71513800DF7FD4 /* Info.plist */,
+			);
+			path = PDFCreatorTests;
+			sourceTree = "<group>";
+		};
+		7F3D04A11D71513800DF7FD4 /* PDFCreatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F3D04A21D71513800DF7FD4 /* PDFCreatorUITests.swift */,
+				7F3D04A41D71513800DF7FD4 /* Info.plist */,
+			);
+			path = PDFCreatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F3D047E1D71513800DF7FD4 /* PDFCreator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F3D04A71D71513800DF7FD4 /* Build configuration list for PBXNativeTarget "PDFCreator" */;
+			buildPhases = (
+				7F3D047B1D71513800DF7FD4 /* Sources */,
+				7F3D047C1D71513800DF7FD4 /* Frameworks */,
+				7F3D047D1D71513800DF7FD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFCreator;
+			productName = PDFCreator;
+			productReference = 7F3D047F1D71513800DF7FD4 /* PDFCreator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F3D04921D71513800DF7FD4 /* PDFCreatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F3D04AA1D71513800DF7FD4 /* Build configuration list for PBXNativeTarget "PDFCreatorTests" */;
+			buildPhases = (
+				7F3D048F1D71513800DF7FD4 /* Sources */,
+				7F3D04901D71513800DF7FD4 /* Frameworks */,
+				7F3D04911D71513800DF7FD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F3D04951D71513800DF7FD4 /* PBXTargetDependency */,
+			);
+			name = PDFCreatorTests;
+			productName = PDFCreatorTests;
+			productReference = 7F3D04931D71513800DF7FD4 /* PDFCreatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F3D049D1D71513800DF7FD4 /* PDFCreatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F3D04AD1D71513800DF7FD4 /* Build configuration list for PBXNativeTarget "PDFCreatorUITests" */;
+			buildPhases = (
+				7F3D049A1D71513800DF7FD4 /* Sources */,
+				7F3D049B1D71513800DF7FD4 /* Frameworks */,
+				7F3D049C1D71513800DF7FD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F3D04A01D71513800DF7FD4 /* PBXTargetDependency */,
+			);
+			name = PDFCreatorUITests;
+			productName = PDFCreatorUITests;
+			productReference = 7F3D049E1D71513800DF7FD4 /* PDFCreatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F3D04771D71513800DF7FD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Chris Stromberg";
+				TargetAttributes = {
+					7F3D047E1D71513800DF7FD4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7F3D04921D71513800DF7FD4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7F3D047E1D71513800DF7FD4;
+					};
+					7F3D049D1D71513800DF7FD4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7F3D047E1D71513800DF7FD4;
+					};
+				};
+			};
+			buildConfigurationList = 7F3D047A1D71513800DF7FD4 /* Build configuration list for PBXProject "PDFCreator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F3D04761D71513800DF7FD4;
+			productRefGroup = 7F3D04801D71513800DF7FD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F3D047E1D71513800DF7FD4 /* PDFCreator */,
+				7F3D04921D71513800DF7FD4 /* PDFCreatorTests */,
+				7F3D049D1D71513800DF7FD4 /* PDFCreatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F3D047D1D71513800DF7FD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3D048D1D71513800DF7FD4 /* LaunchScreen.storyboard in Resources */,
+				7F3D048A1D71513800DF7FD4 /* Assets.xcassets in Resources */,
+				7F3D04881D71513800DF7FD4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3D04911D71513800DF7FD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3D049C1D71513800DF7FD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F3D047B1D71513800DF7FD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3D04851D71513800DF7FD4 /* ViewController.swift in Sources */,
+				7F3D04831D71513800DF7FD4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3D048F1D71513800DF7FD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3D04981D71513800DF7FD4 /* PDFCreatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3D049A1D71513800DF7FD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3D04A31D71513800DF7FD4 /* PDFCreatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F3D04951D71513800DF7FD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F3D047E1D71513800DF7FD4 /* PDFCreator */;
+			targetProxy = 7F3D04941D71513800DF7FD4 /* PBXContainerItemProxy */;
+		};
+		7F3D04A01D71513800DF7FD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F3D047E1D71513800DF7FD4 /* PDFCreator */;
+			targetProxy = 7F3D049F1D71513800DF7FD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F3D04861D71513800DF7FD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F3D04871D71513800DF7FD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F3D048B1D71513800DF7FD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F3D048C1D71513800DF7FD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F3D04A51D71513800DF7FD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F3D04A61D71513800DF7FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F3D04A81D71513800DF7FD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PDFCreator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisstromberg.PDFCreator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F3D04A91D71513800DF7FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PDFCreator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisstromberg.PDFCreator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7F3D04AB1D71513800DF7FD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PDFCreatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisstromberg.PDFCreatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDFCreator.app/PDFCreator";
+			};
+			name = Debug;
+		};
+		7F3D04AC1D71513800DF7FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PDFCreatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisstromberg.PDFCreatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDFCreator.app/PDFCreator";
+			};
+			name = Release;
+		};
+		7F3D04AE1D71513800DF7FD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PDFCreatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisstromberg.PDFCreatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PDFCreator;
+			};
+			name = Debug;
+		};
+		7F3D04AF1D71513800DF7FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PDFCreatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisstromberg.PDFCreatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PDFCreator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F3D047A1D71513800DF7FD4 /* Build configuration list for PBXProject "PDFCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3D04A51D71513800DF7FD4 /* Debug */,
+				7F3D04A61D71513800DF7FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F3D04A71D71513800DF7FD4 /* Build configuration list for PBXNativeTarget "PDFCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3D04A81D71513800DF7FD4 /* Debug */,
+				7F3D04A91D71513800DF7FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F3D04AA1D71513800DF7FD4 /* Build configuration list for PBXNativeTarget "PDFCreatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3D04AB1D71513800DF7FD4 /* Debug */,
+				7F3D04AC1D71513800DF7FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F3D04AD1D71513800DF7FD4 /* Build configuration list for PBXNativeTarget "PDFCreatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3D04AE1D71513800DF7FD4 /* Debug */,
+				7F3D04AF1D71513800DF7FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F3D04771D71513800DF7FD4 /* Project object */;
+}
