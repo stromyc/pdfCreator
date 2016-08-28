@@ -14,6 +14,9 @@
 		7F3D048D1D71513800DF7FD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F3D048B1D71513800DF7FD4 /* LaunchScreen.storyboard */; };
 		7F3D04981D71513800DF7FD4 /* PDFCreatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3D04971D71513800DF7FD4 /* PDFCreatorTests.swift */; };
 		7F3D04A31D71513800DF7FD4 /* PDFCreatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3D04A21D71513800DF7FD4 /* PDFCreatorUITests.swift */; };
+		7F3D04B11D7161F400DF7FD4 /* chessBanner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F3D04B01D7161F400DF7FD4 /* chessBanner.jpg */; };
+		7F3D04B31D71E87B00DF7FD4 /* templateViewPDF.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F3D04B21D71E87B00DF7FD4 /* templateViewPDF.xib */; };
+		7F3D04B51D71F42800DF7FD4 /* PDFRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3D04B41D71F42800DF7FD4 /* PDFRenderer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		7F3D049E1D71513800DF7FD4 /* PDFCreatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFCreatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F3D04A21D71513800DF7FD4 /* PDFCreatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFCreatorUITests.swift; sourceTree = "<group>"; };
 		7F3D04A41D71513800DF7FD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F3D04B01D7161F400DF7FD4 /* chessBanner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chessBanner.jpg; path = ../../chessBanner.jpg; sourceTree = "<group>"; };
+		7F3D04B21D71E87B00DF7FD4 /* templateViewPDF.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = templateViewPDF.xib; sourceTree = "<group>"; };
+		7F3D04B41D71F42800DF7FD4 /* PDFRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFRenderer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,15 @@
 		7F3D04811D71513800DF7FD4 /* PDFCreator */ = {
 			isa = PBXGroup;
 			children = (
+				7F3D04B01D7161F400DF7FD4 /* chessBanner.jpg */,
 				7F3D04821D71513800DF7FD4 /* AppDelegate.swift */,
 				7F3D04841D71513800DF7FD4 /* ViewController.swift */,
 				7F3D04861D71513800DF7FD4 /* Main.storyboard */,
 				7F3D04891D71513800DF7FD4 /* Assets.xcassets */,
 				7F3D048B1D71513800DF7FD4 /* LaunchScreen.storyboard */,
 				7F3D048E1D71513800DF7FD4 /* Info.plist */,
+				7F3D04B21D71E87B00DF7FD4 /* templateViewPDF.xib */,
+				7F3D04B41D71F42800DF7FD4 /* PDFRenderer.swift */,
 			);
 			path = PDFCreator;
 			sourceTree = "<group>";
@@ -229,8 +238,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F3D04B31D71E87B00DF7FD4 /* templateViewPDF.xib in Resources */,
 				7F3D048D1D71513800DF7FD4 /* LaunchScreen.storyboard in Resources */,
 				7F3D048A1D71513800DF7FD4 /* Assets.xcassets in Resources */,
+				7F3D04B11D7161F400DF7FD4 /* chessBanner.jpg in Resources */,
 				7F3D04881D71513800DF7FD4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F3D04B51D71F42800DF7FD4 /* PDFRenderer.swift in Sources */,
 				7F3D04851D71513800DF7FD4 /* ViewController.swift in Sources */,
 				7F3D04831D71513800DF7FD4 /* AppDelegate.swift in Sources */,
 			);
